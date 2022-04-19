@@ -518,7 +518,7 @@ time {
 
 .top-news__article {
   background-color: darkgray;
-  background-image: url("../../images/top-news/5/x1.jpg");
+  background-image: url("../images/top-news/5/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -527,13 +527,13 @@ time {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .top-news__article {
-    background-image: url("../../images/top-news/5/x2.jpg");
+    background-image: url("../images/top-news/5/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .top-news__article {
-    background-image: url("../../images/top-news/5/x3.jpg");
+    background-image: url("../images/top-news/5/x3.jpg");
   }
 }
 
@@ -585,74 +585,74 @@ time {
 }
 
 .top-news__lady {
-  background-image: url("../../images/top-news/1/x1.jpg");
+  background-image: url("../images/top-news/1/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .top-news__lady {
-    background-image: url("../../images/top-news/1/x2.jpg");
+    background-image: url("../images/top-news/1/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .top-news__lady {
-    background-image: url("../../images/top-news/1/x3.jpg");
+    background-image: url("../images/top-news/1/x3.jpg");
   }
 }
 
 .top-news__explosion {
-  background-image: url("../../images/top-news/2/x1.jpg");
+  background-image: url("../images/top-news/2/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .top-news__explosion {
-    background-image: url("../../images/top-news/2/x2.jpg");
+    background-image: url("../images/top-news/2/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .top-news__explosion {
-    background-image: url("../../images/top-news/2/x3.jpg");
+    background-image: url("../images/top-news/2/x3.jpg");
   }
 }
 
 .top-news__flood {
-  background-image: url("../../images/top-news/3/x1.jpg");
+  background-image: url("../images/top-news/3/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .top-news__flood {
-    background-image: url("../../images/top-news/3/x2.jpg");
+    background-image: url("../images/top-news/3/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .top-news__flood {
-    background-image: url("../../images/top-news/3/x3.jpg");
+    background-image: url("../images/top-news/3/x3.jpg");
   }
 }
 
 .top-news__transformation {
-  background-image: url("../../images/top-news/4/x1.jpg");
+  background-image: url("../images/top-news/4/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .top-news__transformation {
-    background-image: url("../../images/top-news/4/x2.jpg");
+    background-image: url("../images/top-news/4/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .top-news__transformation {
-    background-image: url("../../images/top-news/4/x3.jpg");
+    background-image: url("../images/top-news/4/x3.jpg");
   }
 }
 
@@ -722,7 +722,7 @@ time {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url("../../images/news/4/x1.jpg");
+  background-image: url("../images/news/4/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: gainsboro;
@@ -736,13 +736,13 @@ time {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .background {
-    background-image: url("../../images/news/4/x2.jpg");
+    background-image: url("../images/news/4/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .background {
-    background-image: url("../../images/news/4/x3.jpg");
+    background-image: url("../images/news/4/x3.jpg");
   }
 }
 
@@ -776,20 +776,20 @@ time {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url("../../images/news/5/x1.jpg");
+  background-image: url("../images/news/5/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .news-5 {
-    background-image: url("../../images/news/5/x2.jpg");
+    background-image: url("../images/news/5/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .news-5 {
-    background-image: url("../../images/news/5/x3.jpg");
+    background-image: url("../images/news/5/x3.jpg");
   }
 }
 
@@ -820,7 +820,7 @@ time {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url("../../images/news/8/x1.jpg");
+  background-image: url("../images/news/8/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -833,13 +833,13 @@ time {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .news-8 {
-    background-image: url("../../images/news/8/x2.jpg");
+    background-image: url("../images/news/8/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .news-8 {
-    background-image: url("../../images/news/8/x3.jpg");
+    background-image: url("../images/news/8/x3.jpg");
   }
 }
 
@@ -891,7 +891,7 @@ time {
 
 .big-item {
   background-repeat: no-repeat;
-  background-image: url("../../images/next-news/1/x1.png"), url("../images/next-news/1/black-right.svg"), url("../images/next-news/1/black-top.svg"), url("../images/next-news/1/parentheses.svg");
+  background-image: url("../images/next-news/1/x1.png"), url("../images/next-news/1/black-right.svg"), url("../images/next-news/1/black-top.svg"), url("../images/next-news/1/parentheses.svg");
   background-position: bottom 0 left 0, bottom 0 left 0, bottom 0 left 0, top 0 left 215px;
 }
 
@@ -1258,7 +1258,7 @@ time {
 
 .ukraine__list .big {
   height: 400px;
-  background-image: url("../../images/ukraine/3/x1.jpg");
+  background-image: url("../images/ukraine/3/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #F8F8F8;
@@ -1267,13 +1267,13 @@ time {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .ukraine__list .big {
-    background-image: url("../../images/ukraine/3/x2.jpg");
+    background-image: url("../images/ukraine/3/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .ukraine__list .big {
-    background-image: url("../../images/ukraine/3/x3.jpg");
+    background-image: url("../images/ukraine/3/x3.jpg");
   }
 }
 
@@ -1420,7 +1420,7 @@ time {
 .latest-news__background {
   width: 299px;
   height: 293px;
-  background-image: url("../../images/latest-news/5/x1.jpg");
+  background-image: url("../images/latest-news/5/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #F8F8F8;
@@ -1434,13 +1434,13 @@ time {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .latest-news__background {
-    background-image: url("../../images/latest-news/5/x2.jpg");
+    background-image: url("../images/latest-news/5/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .latest-news__background {
-    background-image: url("../../images/latest-news/5/x3.jpg");
+    background-image: url("../images/latest-news/5/x3.jpg");
   }
 }
 
@@ -1885,7 +1885,7 @@ button {
 }
 
 .popular-line-1 {
-  background-image: url("../../images/popular/1/x1.jpg");
+  background-image: url("../images/popular/1/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #F8F8F8;
@@ -1893,18 +1893,18 @@ button {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .popular-line-1 {
-    background-image: url("../../images/popular/1/x2.jpg");
+    background-image: url("../images/popular/1/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .popular-line-1 {
-    background-image: url("../../images/popular/1/x3.jpg");
+    background-image: url("../images/popular/1/x3.jpg");
   }
 }
 
 .popular-line-4 {
-  background-image: url("../../images/popular/2/x1.jpg");
+  background-image: url("../images/popular/2/x1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #F8F8F8;
@@ -1912,13 +1912,13 @@ button {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .popular-line-4 {
-    background-image: url("../../images/popular/2/x2.jpg");
+    background-image: url("../images/popular/2/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .popular-line-4 {
-    background-image: url("../../images/popular/2/x3.jpg");
+    background-image: url("../images/popular/2/x3.jpg");
   }
 }
 
@@ -2081,7 +2081,7 @@ time {
 
 .ratings-line-1 {
   background-color: gainsboro;
-  background-image: url("../../images/ratings/1/x1.jpg");
+  background-image: url("../images/ratings/1/x1.jpg");
   background-size: 300px 375px;
 }
 
@@ -2093,13 +2093,13 @@ time {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .ratings-line-1 {
-    background-image: url("../../images/ratings/1/x2.jpg");
+    background-image: url("../images/ratings/1/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .ratings-line-1 {
-    background-image: url("../../images/ratings/1/x3.jpg");
+    background-image: url("../images/ratings/1/x3.jpg");
   }
 }
 
@@ -2107,7 +2107,7 @@ time {
   background-color: white;
   background-repeat: no-repeat;
   background-position: top 80px left -10px;
-  background-image: url("../../images/ratings/2/x1.png");
+  background-image: url("../images/ratings/2/x1.png");
   background-size: 330px 185px;
 }
 
@@ -2119,13 +2119,13 @@ time {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .ratings-line-2 {
-    background-image: url("../../images/ratings/2/x2.png");
+    background-image: url("../images/ratings/2/x2.png");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .ratings-line-2 {
-    background-image: url("../../images/ratings/2/x3.png");
+    background-image: url("../images/ratings/2/x3.png");
   }
 }
 
@@ -2295,20 +2295,20 @@ time {
   display: -ms-flexbox;
   display: flex;
   background-color: #050A14;
-  background-image: url("../../images/scroll-news/x1.jpg");
+  background-image: url("../images/scroll-news/x1.jpg");
   padding: 20px 0;
   background-size: cover;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .scroll-news .container {
-    background-image: url("../../images/scroll-news/x2.jpg");
+    background-image: url("../images/scroll-news/x2.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .scroll-news .container {
-    background-image: url("../../images/scroll-news/x3.jpg");
+    background-image: url("../images/scroll-news/x3.jpg");
   }
 }
 

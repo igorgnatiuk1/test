@@ -11,7 +11,7 @@
         }
         & .big{
             height: 400px;
-            background-image: url("../../images/ukraine/3/x1.jpg");
+            background-image: url("../images/ukraine/3/x1.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-color: #F8F8F8;
@@ -19,12 +19,12 @@
             @media screen and (min-device-pixel-ratio: 2),
             screen and (min-resolution: 192dpi),
             screen and (min-resolution: 2dppx) {
-            background-image: url('../../images/ukraine/3/x2.jpg')
+            background-image: url('../images/ukraine/3/x2.jpg')
             }
             @media screen and (min-device-pixel-ratio: 3),
             screen and (min-resolution: 288dpi),
             screen and (min-resolution: 3dppx) {
-            background-image: url('../../images/ukraine/3/x3.jpg')
+            background-image: url('../images/ukraine/3/x3.jpg')
             }
             @media screen and (min-width: 768px) {
                 width: 624px;

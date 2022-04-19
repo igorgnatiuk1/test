@@ -45,19 +45,19 @@
     }
     display: flex;
     align-items: flex-end;
-    background-image: url("../../images/news/4/x1.jpg");
+    background-image: url("../images/news/4/x1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gainsboro;
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-        background-image: url('../../images/news/4/x2.jpg')
+        background-image: url('../images/news/4/x2.jpg')
     }
     @media screen and (min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
-        background-image: url('../../images/news/4/x3.jpg')
+        background-image: url('../images/news/4/x3.jpg')
     }
     & p:hover, & p:focus{
         color: red;
@@ -85,18 +85,18 @@
 .news-5{
     display: flex;
     align-items: flex-end;
-    background-image: url("../../images/news/5/x1.jpg");
+    background-image: url("../images/news/5/x1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-        background-image: url('../../images/news/5/x2.jpg')
+        background-image: url('../images/news/5/x2.jpg')
     }
     @media screen and (min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
-        background-image: url('../../images/news/5/x3.jpg')
+        background-image: url('../images/news/5/x3.jpg')
     }
     @media screen and (max-width: 768px) {
         height: 316px;
@@ -120,18 +120,18 @@
     }
     display: flex;
     align-items: flex-end;
-    background-image: url("../../images/news/8/x1.jpg");
+    background-image: url("../images/news/8/x1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-        background-image: url('../../images/news/8/x2.jpg')
+        background-image: url('../images/news/8/x2.jpg')
     }
     @media screen and (min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
-        background-image: url('../../images/news/8/x3.jpg')
+        background-image: url('../images/news/8/x3.jpg')
     }
     & h3{
         @media screen and (min-width: 330px) {

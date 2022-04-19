@@ -15,18 +15,18 @@
         background-position: center;
         display: flex;
         background-color: #050A14;
-        background-image: url("../../images/scroll-news/x1.jpg");
+        background-image: url("../images/scroll-news/x1.jpg");
         padding: 20px 0;
         background-size: cover;
         @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-        background-image: url('../../images/scroll-news/x2.jpg')
+        background-image: url('../images/scroll-news/x2.jpg')
         }
         @media screen and (min-device-pixel-ratio: 3),
         screen and (min-resolution: 288dpi),
         screen and (min-resolution: 3dppx) {
-        background-image: url('../../images/scroll-news/x3.jpg')
+        background-image: url('../images/scroll-news/x3.jpg')
         }
         @media screen and (min-width: 768px) {
             padding: 45px 0;
