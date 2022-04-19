@@ -1,0 +1,29 @@
+.simplebar-scrollbar:before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 5px;
+    opacity: 1;
+    background: #ED3237;
+}
+.simplebar-track.simplebar-vertical {
+    background: rgba(255, 255, 255, 0.25);
+    width: 5px;
+}
+.simplebar-scrollbar.simplebar-visible::before{
+    opacity: 1;
+}
+
+
+.absolute{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+}

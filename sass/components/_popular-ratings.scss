@@ -1,0 +1,306 @@
+
+.popular{
+    background: #F4F4F4;
+    padding: 50px 0;
+    &-line{
+        display: flex;
+        position: relative;
+        transition: all ease 1s;
+        & h3:hover, & h3:focus{
+            color: red;
+        }
+        & article{
+            position: relative;
+        }
+        & a{
+            margin: 0 15px;
+        }
+        &-1{
+
+            background-image: url("../../images/popular/1/x1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #F8F8F8;
+            @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            background-image: url('../../images/popular/1/x2.jpg')
+            }
+            @media screen and (min-device-pixel-ratio: 3),
+            screen and (min-resolution: 288dpi),
+            screen and (min-resolution: 3dppx) {
+            background-image: url('../../images/popular/1/x3.jpg')
+            }
+        }
+        &-4{
+
+            background-image: url("../../images/popular/2/x1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #F8F8F8;
+            @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            background-image: url('../../images/popular/2/x2.jpg')
+            }
+            @media screen and (min-device-pixel-ratio: 3),
+            screen and (min-resolution: 288dpi),
+            screen and (min-resolution: 3dppx) {
+            background-image: url('../../images/popular/2/x3.jpg')
+            }
+        }
+        &-2{
+            background-color: #050A14;
+        }
+        &-3{
+            background-color: white;
+            & .absolute-white{
+                color: white;
+                background-color: black;
+                &:hover, &:focus{
+                    color: red;
+                }
+            }
+        }
+        & article{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            align-items: end;
+        }
+        &-3 h3{
+            margin-bottom: 35px;
+        }
+    }
+    &__box{
+        overflow: hidden;
+    
+    }
+    &-prev{
+        @media screen and (max-width: 1440px) {
+            display: none;
+        }
+        position: absolute;
+        top: 95px;
+        left: -70px;
+        background-color: white;
+        height: 300px;
+        width: 55px;
+        & svg{
+            width: 24px;
+            height: 47px;
+            stroke: black;
+        }
+        &:hover, &:focus{
+            cursor: pointer;
+            background-color:rgba(6, 6, 6, 0.5);
+        }
+    }
+    & .container{
+        position: relative;
+    }
+    &-next{
+        @media screen and (max-width: 1440px) {
+            display: none;
+        }
+        position: absolute;
+        top: 95px;
+        right: -70px;
+        background-color: white;
+        height: 300px;
+        width: 55px;
+        & svg{
+            width: 24px;
+            height: 47px;
+            stroke: black;
+        }
+        &:hover, &:focus{
+            cursor: pointer;
+            background-color:rgba(6, 6, 6, 0.5);
+        }
+    }
+}
+.popular-line-1 h3, .popular-line-2 h3, .popular-line-4 h3{
+    color: white;
+}
+.popular-line-1 h3, .popular-line-2 h3, .popular-line-4 h3{
+    margin-bottom: 15px;
+}
+.popular h2, .ratings h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.35;
+    margin-bottom: 40px;
+    @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 54px;
+    }
+}
+time{
+    color: gainsboro;
+}
+.ratings{
+background: #F4F4F4;
+padding: 40px 0;
+@media screen and (min-width: 1440px) {
+    padding: 50px 0;
+}
+&-line{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    transition: all ease 1s;
+    & a:hover, & a:focus{
+        color: red;
+    }
+    & article{
+        width: 300px;
+        height: 375px;
+        @media screen and (min-width: 1440px) {
+            width: 408px;
+            height: 515px; 
+        }
+        
+    }
+    &-1{
+        background-color:gainsboro;
+        background-image: url("../../images/ratings/1/x1.jpg");
+        background-size: 300px 375px;
+        @media screen and (min-width: 1440px) {
+            background-size: 408px 515px;
+        }
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: url('../../images/ratings/1/x2.jpg')
+        }
+        @media screen and (min-device-pixel-ratio: 3),
+        screen and (min-resolution: 288dpi),
+        screen and (min-resolution: 3dppx) {
+        background-image: url('../../images/ratings/1/x3.jpg')
+        }
+        
+    }
+    &-2{
+        background-color: white;
+         background-repeat: no-repeat;
+         background-position: top 80px left -10px;
+         background-image: url("../../images/ratings/2/x1.png");
+         background-size: 330px 185px;
+        @media screen and (min-width: 1440px) {
+            background-size: 330px 200px;
+        }
+         @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: url('../../images/ratings/2/x2.png')
+        }
+        @media screen and (min-device-pixel-ratio: 3),
+        screen and (min-resolution: 288dpi),
+        screen and (min-resolution: 3dppx) {
+        background-image: url('../../images/ratings/2/x3.png')
+        }
+         @media screen and (min-width: 1440px) {
+            background-position: top 80px left 40px;
+         }
+     }
+     &-3{
+        background-color: black;
+    }
+    & h3{
+        width: 270px;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 1.16;
+        @media screen and (min-width: 1440px) {
+            width: 340px;
+            font-size: 24px;
+        }
+    }
+    &-1 span{
+        display: block;
+        margin-bottom: 30px;
+    }
+    & article{
+        text-align: -webkit-center;
+    }
+    &-2 p{
+        margin-bottom: 215px;
+        @media screen and (min-width: 1440px) {
+            margin-bottom: 300px;
+        }
+    }
+}
+&__box{
+    overflow: hidden;
+
+}
+&-num{
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1.26;
+    margin-bottom: 24px;
+    @media screen and (min-width: 1440px) {
+        font-size: 100px;
+        margin-bottom: 60px;
+    }
+}
+& .container{
+    position: relative;
+}
+&-prev{
+    @media screen and (max-width: 1440px) {
+        display: none;
+    }
+    position: absolute;
+    top: 95px;
+    left: -75px;
+    height: 515px;
+    width: 55px;
+    background-color: white;
+    & svg{
+        width: 24px;
+        height: 47px;
+        stroke: black;
+    }
+    &:hover, &:focus{
+        cursor: pointer;
+        background-color:rgba(6, 6, 6, 0.5);
+    }
+}
+&-next{
+    @media screen and (max-width: 1440px) {
+        display: none;
+    }
+    position: absolute;
+    top: 95px;
+    right: -75px;
+    height: 515px;
+    width: 55px;
+    background-color: white;
+    & svg{
+        width: 24px;
+        height: 47px;
+        stroke: black;
+    }
+    &:hover, &:focus{
+        cursor: pointer;
+        background-color:rgba(6, 6, 6, 0.5);
+    }
+}
+}
+.rating-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    padding-top: 55px;
+    margin-bottom: 30px;
+    @media screen and (min-width: 1440px) {
+        padding-top: 35px;
+        margin-bottom: 114px; 
+    }
+}
+
+.ratings-line-1 a, .ratings-line-3 a{
+    color: white;
+}

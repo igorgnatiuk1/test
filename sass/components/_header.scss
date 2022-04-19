@@ -1,0 +1,248 @@
+.header{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 24px 30px;
+    justify-content: space-between;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.03);
+    & h1{
+        display: none;
+    }
+    &__list{
+        display: flex;
+    }
+    & nav{
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+    &__item{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.18;
+        @media screen and (min-width: 1440px) {
+            font-size: 16px;
+        }
+        &:not(:last-child){
+            margin-right: 25px;
+            @media screen and (min-width: 1440px) {
+                margin-right: 40px;
+            }
+        }
+    }
+    &__lang{
+        margin-right: 20px;
+    }
+    &__box{
+        display: flex;
+    }
+    &__burger{
+        width: 27px;
+        height: 18px;
+        margin-right: 16px;
+        &:hover, &:focus{
+            cursor: pointer;
+            fill: red;
+        }
+        
+    }
+    &__search{
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        &:hover, &:focus{
+            cursor: pointer;
+            fill: red;
+        }
+    }
+}
+
+.menu-button .icon-cross{
+    display: none;
+}
+.menu-button.is-open .icon-cross{
+    display: block;
+}
+.menu-button.is-open .icon-menu{
+    display: none;
+}
+.header__menu{
+    opacity: 0;
+    pointer-events: initial;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 330px;
+    max-width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    &.is-open{
+        opacity: 1;
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        border-top: 1px solid gainsboro;
+        & p{
+            margin-left: 25px;
+        }
+    }
+}
+.backdrop{
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: initial;
+    position: fixed;
+    pointer-events: auto;
+    overflow-y: auto;
+    z-index: 1;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsla(0,0%,100%,.7);
+    transform: translateX(-100%);
+    transition: transform .15s,-webkit-transform .15s;
+    &.is-open{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.body.is-open{
+    overflow: hidden;
+}
+.section{
+    margin-bottom: 30px;
+    &__name{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.18;
+        color: #929292;
+        margin-bottom: 10px;
+    }
+    &__item{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4; 
+        & a{
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+}
+
+.button-search .icon-cross{
+    display: none;
+}
+.button-search.is-open{
+    z-index: 2;
+    @media screen and (min-width: 768px){
+        margin-right: 35px;
+        margin-top: 25px;
+    }
+}
+.button-search.is-open .icon-cross{
+    display: block;
+}
+.button-search.is-open .icon-search{
+    display: none;
+}
+
+.search__backdrop{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(244,244,245,.97);
+    transition: opacity .15s,visibility .15s;
+    &.is-open{
+        opacity: 1;
+        visibility: visible;
+    }
+
+};
+.search__menu{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 120px;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 768px){
+        top: 80px;
+    }
+    & a{
+        margin-bottom: 50px;
+    }
+    &.is-open{
+         opacity: 1;
+        visibility: visible;
+    }
+};
+.form{
+    position: relative;
+    &__btn{
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        &:hover{
+            cursor: pointer;
+            fill: red;
+        }
+        @media screen and (min-width: 768px){
+            top: 15px;
+            right: 30px;
+            }
+        @media screen and (min-width: 1440px){
+            top: 25px;
+        }
+        & svg{
+            width: 25px;
+            height: 25px;
+            @media screen and (min-width: 768px){
+                width: 30px;
+                height: 30px;
+                    }
+                @media screen and (min-width: 1440px){
+                width: 40px;
+                height: 40px;
+                }
+        }
+    }
+    &__input{
+        width: 300px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 10%);
+        padding: 10px;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.18;
+        @media screen and (min-width: 768px){
+        width: 500px;
+        padding: 20px;
+        font-size: 20px;
+        }
+    @media screen and (min-width: 1440px){
+        width: 900px;
+        padding: 30px;
+        font-size: 30px;
+    }
+    }
+}
+  

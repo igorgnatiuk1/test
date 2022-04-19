@@ -1,0 +1,226 @@
+.next-news{
+    padding: 50px 0 55px 0;
+    &__list{
+        display: flex;
+        margin: -12px;
+        flex-wrap: wrap;
+        & li{
+            margin: 12px;
+            width: 300px;
+        }
+        & div{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        & h3{
+            margin-bottom: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        & time{
+            margin-bottom: 5px;
+        }
+        & .big-item{
+            @media screen and (min-width: 768px) {
+                width: 624px;
+            }
+            
+        }
+    }
+}
+
+
+.big-item{
+    background-repeat: no-repeat;
+    background-image: url("../../images/next-news/1/x1.png"),
+     url("../images/next-news/1/black-right.svg"), url("../images/next-news/1/black-top.svg"),
+    url("../images/next-news/1/parentheses.svg");
+    background-position: bottom 0 left 0, bottom 0 left 0, bottom 0 left 0, top 0 left 215px;
+   
+& h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.24;
+    
+    @media screen and (max-width: 768px) {
+        margin-bottom: 40px;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 25px;
+    }
+}
+& p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.27;
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+    }
+}
+& a{
+    color: white;
+    margin: 40px 22px 0 5px;
+    @media screen and (min-width: 768px) {
+        width: 310px;
+        color: black;
+    }
+    &:hover, &:focus{
+        color: red;
+    }
+}
+& div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+& .next-news__bottom{
+    display: block;
+   text-align: end;
+    margin-top: -15px;
+    @media screen and (min-width: 768px) {
+        margin-top: 120px;
+    }
+}
+}
+.next-news__bottom a{
+    width: 133px;
+    text-align: end;
+}
+.next-news__bottom h3{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 8px;
+    margin-right: 15px;
+}
+.next-news__bottom p{
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    margin-right: 15px;
+}
+
+.next-news__list__maria, .misha{
+    background-color: black;
+
+}
+.next-news__list__maria a, .misha a{
+    display: block;
+    text-align: center;
+    color: white;
+    &:hover{
+        color: red;
+        fill: red;
+    }
+}
+
+.next-news__list__maria svg:hover, .misha svg:hover{
+    fill: red;
+}
+.next-news__list__maria h3, .misha h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+.next-news__list__maria p, .misha p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.next-news__list__maria .name, .misha .name{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+.next-news__list__maria article, .misha article{
+    display: block;
+}
+.next-news__list__maria svg, .misha svg{
+    margin-top: 55px;
+    width: 28px;
+    height: 20px;
+    fill: white;
+  
+}
+.next-news__list__maria .name-img, .misha .name-img{
+    display: inline-flex;
+    margin-top: 60px;
+    width: 31px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+}
+.absolute-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+}
+.absolute-top:hover{
+    color: red;
+}
+.absolute-white{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+}
+.absolute-white:hover{
+    color: red;
+}
+.absolute:hover{
+    color: red;
+}
+.next-news__list__white h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-top: 35px;
+}
+.next-news__list__white p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 54px;
+    }
+}
+.image{
+    margin-bottom: 5px;
+}
+
+.oil{
+    margin-bottom: 33px;
+}

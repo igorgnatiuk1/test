@@ -1,0 +1,100 @@
+.scroll-news{
+    display: flex;
+    @media screen and (max-width: 329px) {
+        padding: 0 15px;
+    }
+    & article{
+        margin-left: 15px;
+    }
+    &__article:hover, &__article:focus{
+        color: gainsboro;
+    }
+    & .container{
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        background-color: #050A14;
+        background-image: url("../../images/scroll-news/x1.jpg");
+        padding: 20px 0;
+        background-size: cover;
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: url('../../images/scroll-news/x2.jpg')
+        }
+        @media screen and (min-device-pixel-ratio: 3),
+        screen and (min-resolution: 288dpi),
+        screen and (min-resolution: 3dppx) {
+        background-image: url('../../images/scroll-news/x3.jpg')
+        }
+        @media screen and (min-width: 768px) {
+            padding: 45px 0;
+        }
+    }
+    & p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 0.8;
+    }
+    & a{
+        color: white;
+    }
+    & h2{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 80px;
+        @media screen and (min-width: 768px) {
+            font-size: 30px;
+            width: 380px;
+        }
+        @media screen and (min-width: 1440px) {
+            font-size: 40px;
+            width: 450px;
+        }
+    }
+    & ul{
+        margin-right: 15px;
+        width: 220px;
+        @media screen and (min-width: 1440px) {
+            width: 470px;
+        }
+    }
+
+}
+
+.scroll-box{
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+    width: 470px;
+    height: 240px;
+    overflow-y: auto;
+    & h3{
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        @media screen and (min-width: 1440px) {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        &:hover, &:focus{
+            color: gainsboro;
+        }
+    }
+    & time{
+        border-bottom: 1px solid gainsboro;
+        width: 50px;
+        padding-bottom: 10px;
+        @media screen and (min-width: 1440px) {
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+

@@ -1,0 +1,1299 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Фокус</title>
+    <link rel="stylesheet" href="simplebar.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./modern-normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    
+
+</head>
+<body class="body" hidden-menu >
+<header class="header">
+    
+<div class="header__box">
+    <button class="menu-button" type="button" aria-expanded="false" data-menu-button aria-controls="header__menu">
+        <svg class="header__burger" 
+        aria-label="Переключатель меню">
+            <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+            <use class="icon-cross" href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+    </button>
+    <div class="backdrop" modal >
+    <div class="header__menu" id="header__menu" data-menu>
+<div class="section">
+    <p class="section__name">РАЗДЕЛЫ</p>
+    <ul>
+        <li class="section__item"><a href="">ПОДДЕРЖАТЬ ФОКУС</a></li>
+        <li class="section__item"><a href="">ВСЕ НОВОСТИ</a></li>
+        <li class="section__item"><a href="">ВОЕННЫЙ ФОКУС</a></li>
+        <li class="section__item"><a href="">ПОЛИТИКА</a></li>
+        <li class="section__item"><a href="">УКРАИНА</a></li>
+        <li class="section__item"><a href="">МИР</a></li>
+        <li class="section__item"><a href="">ТЕХНОЛОГИИ</a></li>
+        <li class="section__item"><a href=""></a>СТИЛЬ ЖИЗНИ</li>
+        <li class="section__item"><a href="">ДИДЖИТАЛ</a></li>
+        <li class="section__item"><a href="">АВТО</a></li>
+        <li class="section__item"><a href="">ЭКОНОМИКА</a></li>
+        <li class="section__item"><a href="">СПОРТ</a></li>
+        <li class="section__item"><a href="">КУЛЬТУРА</a></li>
+    </ul>
+</div>
+<div class="section">
+    <p class="section__name">МАТЕРИАЛЫ</p>
+    <ul>
+        <li class="section__item"><a>МНЕНИЕ</a></li>
+        <li class="section__item"><a>СПЕЦТЕМЫ</a></li>
+        <li class="section__item"><a>РЕЙТИНГИ</a></li>
+    </ul>
+</div>
+<a href="" class="header__menu__link">
+    <picture>
+        <source
+         srcset="./images/footer/3/x1.webp 1x, ./images/footer/3/x2.webp 2x, ./images/footer/3/x3.webp 3x"
+         type="image/webp"
+        />
+        <img
+         srcset="./images/footer/3/x1.png 1x, ./images/footer/3/x2.png 2x, ./images/footer/3/x3.png 3x"
+         src="./images/footer/3/x1.png" alt="100 самых влиятельных украицев"
+         width="87"
+        />
+       </picture>
+       <p>Гарантировано получите скидку <b>-10%</b></p>
+</a>
+    </div>
+</div>
+    <a href="index.html">
+        <img src="./images/focus.svg" alt="лого ФОКУС">
+    </a>
+</div>
+
+    <h1>ГЛАВНЫЕ НОВОСТИ СТРАНЫ</h1>
+        <nav>
+            <ul class="header__list">
+                <li class="header__item"><a href="index.html">КАТЕГОРИИ</a></li>
+                <li class="header__item"><a href="index.html">СПЕЦТЕМА</a></li>
+                <li class="header__item"><a href="index.html">РЕЙТИНГИ</a></li>
+                <li class="header__item"><a href="index.html">ПОДПИСКА</a></li>
+
+            </ul>
+        </nav>
+        
+    <div class="header__box">
+        <ul class="header__list">
+            <li class="header__lang"><a href="">UA</a></li>
+            <li><a href="">RU</a></li>
+        </ul>
+      
+        <button type="button" class="button-search" aria-expanded="false" btn-search >
+            <svg class="header__search" aria-label="Кнопка поиска">
+                <use class="icon-search" href="./images/sprite.svg#icon-search"></use>
+                <use class="icon-cross" href="./images/sprite.svg#icon-cross"></use>
+            </svg>
+        </button>
+        <div class="search__backdrop" backdrop>
+            <div class="search__menu" search>
+                <a href="index.html">
+                    <img width="200" src="./images/focus.svg" alt="лого ФОКУС">
+                </a>
+                <form class="form">
+                    <input class="form__input" type="text" placeholder="Поиск по сайту">
+                    <button type="button" class="form__btn">
+                        <svg>
+                            <use class="icon-search" href="./images/sprite.svg#icon-search"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</header>
+
+<main>
+    <section class="top-news">
+        <div class="container">
+            <ul class="top-news__list">
+                <li class="top-news__item">
+                    <article class="top-news__lady">
+                        <a href="">
+                            <h3>Леди в законе. Особый статус <br>для жены президетна</h3>
+                        </a>
+                    </article>
+                </li>
+                <li class="top-news__item">
+                    <article class="top-news__explosion">
+                        <a href="">
+                            <h3> Взрыв на Позняках <br>в Киеве</h3>
+                        </a>
+                    </article>
+                </li>
+                <li class="top-news__item">
+                    <article class="top-news__flood">
+                        <a href="">
+                            <h3> Потоп на западной Украине</h3>
+                        </a>
+                    </article>
+                </li>
+                <li class="top-news__item">
+                    <article class="top-news__transformation">
+                        <a href="">
+                            <h3>Цифровая трансформация <br>бизнеса Украины</h3>
+                        </a>
+                    </article>
+                </li>
+
+            </ul>
+<article class="top-news__article">
+    <a href="">
+        <h2>Леди в законе. Зачем Зеленскому понадобился особый статус для жены президента</h2>
+        <p>Владимир Зеленский загорелся идеей разработки закона о первой леди. Для чего ему это
+            понадобилось, и какие права и обязанности возлагаются на супругу главы государства в Украине </p>
+
+    </a>
+</article>
+        </div>
+
+    </section>
+    <section class="news">
+        <div class="container">
+            <ul class="news__list-top">
+                <li class="border_bottom">
+                    <article>
+                        <div>
+                            <a href="" class="relative">
+                              
+                             <picture>
+                              <source
+                               srcset="./images/news/1/x1.webp 1x, ./images/news/1/x2.webp 2x, ./images/news/1/x3.webp 3x"
+                               type="image/webp"
+                              />
+                              <img
+                               srcset="./images/news/1/x1.jpg 1x, ./images/news/1/x2.jpg 2x, ./images/news/1/x3.jpg 3x"
+                               src="./images/news/1/x1.jpg" alt="Наказание карантином"
+                               height="260"
+                               width="300"
+                              />
+                             </picture>
+                                <h2 class="absolute">УКРАИНА</h2>
+                            </a>
+                        </div>
+                        <a href=""><h3>Наказание карантином. Чем грозит Украине вторая волна борьбы с коронавирусом</h3></a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article></li>
+                <li class="border_bottom">
+                    <article>
+                        <div>
+                            <a href="" class="relative">
+                                <picture>
+                                    <source
+                                     srcset="./images/news/2/x1.webp 1x, ./images/news/2/x2.webp 2x, ./images/news/2/x3.webp 3x"
+                                     type="image/webp"
+                                    />
+                                    <img
+                                     srcset="./images/news/2/x1.jpg 1x, ./images/news/2/x2.jpg 2x, ./images/news/2/x3.jpg 3x"
+                                     src="./images/news/2/x1.jpg" alt="Заговоренная связь"
+                                     height="260"
+                                     width="300"
+                                    />
+                                   </picture>
+                                <h2 class="absolute">ТЕХНОЛОГИИ И НАУКА</h2>
+                            </a>
+                        </div>
+                        <a href=""><h3>Заговоренная связь. Все, что известно о 5G и его влиянии на здоровье</h3></a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article></li>
+                <li class="background relative">
+                    <article >
+                        <a href="">
+                         <h2 class="absolute-white">РЕЙТИНГ</h2>
+                         <p>100</p>
+                          <h3 class="background__color">Из песни слов не выкинешь. Рейтинг Фокуса:
+                          самые успешные звезды шоу-бизнеса</h3>
+                        </a>
+                    </article>
+                </li>
+                <li class="border_bottom">
+                    <article>
+                        <div>
+                            <a href="" class="relative">
+                                <picture>
+                                    <source
+                                     srcset="./images/news/3/x1.webp 1x, ./images/news/3/x2.webp 2x, ./images/news/3/x3.webp 3x"
+                                     type="image/webp"
+                                    />
+                                    <img
+                                     srcset="./images/news/3/x1.jpg 1x, ./images/news/3/x2.jpg 2x, ./images/news/3/x3.jpg 3x"
+                                     src="./images/news/3/x1.jpg" alt="Сексистский скандал"
+                                     height="260"
+                                     width="300"
+                                    />
+                                   </picture>
+                                <h2 class="absolute">ПОЛИТИКА</h2>
+                            </a>
+                        </div>
+                        <a href=""><h3>Дубы и сосны. В соцсетях обсуждают сексистский скандал в "Слуге народа"</h3></a>
+                        
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article>
+                </li>
+                <li class="news-5 relative">
+                    <article >
+                        <a href="" >
+                            <h2 class="absolute-white">ТЕХНОЛОГИИ И НАУКА</h2>
+                            <h3 class="news-5__color">Заговоренная связь. Все, что известно о 5G и его влиянии на здоровье</h3> 
+                        </a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article>
+                </li>
+                <li class="border_bottom">
+                    <article>
+                        <div>
+                            <a href="" class="relative">
+                                <picture>
+                                    <source
+                                     srcset="./images/news/6/x1.webp 1x, ./images/news/6/x2.webp 2x, ./images/news/6/x3.webp 3x"
+                                     type="image/webp"
+                                    />
+                                    <img
+                                     srcset="./images/news/6/x1.jpg 1x, ./images/news/6/x2.jpg 2x, ./images/news/6/x3.jpg 3x"
+                                     src="./images/news/6/x1.jpg" alt="Кабмин назначил главой МОН Сергея Шкарлета"
+                                     width="300"
+                                    />
+                                   </picture>
+                                <h2 class="absolute">ПОЛИТИКА</h2>
+                            </a>    
+                        </div>
+                        <a href=""><h3 class="cabmin">Кабмин назначил главой МОН Сергея Шкарлета в обход Рады</h3></a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article>
+                </li>
+                <li class="border_bottom">
+                    <article>
+                        <div>
+                           <a href="" class="relative">
+                            <picture>
+                                <source
+                                 srcset="./images/news/7/x1.webp 1x, ./images/news/7/x2.webp 2x, ./images/news/7/x3.webp 3x"
+                                 type="image/webp"
+                                />
+                                <img
+                                 srcset="./images/news/7/x1.jpg 1x, ./images/news/7/x2.jpg 2x, ./images/news/7/x3.jpg 3x"
+                                 src="./images/news/7/x1.jpg" alt="Денис Малюська — о частных СИЗО"
+                                 height="148"
+                                 width="300"
+                                />
+                               </picture>
+                            <h2 class="absolute">ТЕХНОЛОГИИ И НАУКА</h2>
+                           </a>
+                        </div>
+                        <a href=""><h3>Агент изменений. Денис Малюська — о частных СИЗО, продаже тюрем и будущем люстрации</h3></a>      
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article>
+                </li>
+                <li class="news-8 relative">
+                    <article >
+                     <a href="">
+                        <h2 class="absolute-white">ПОЛИТИКА</h2>
+                        <h3 class="news-5__color">Выход в люди. Как Шарий диктует информационную повестку дня в Украине</h3>
+                    </a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article>
+                </li>
+            
+            </ul>
+        </div>
+    </section>
+    <section class="scroll-news">
+        <div class="container">
+            <article >
+                <a href="" class="scroll-news__article">
+                    <h2>ПОТОП НА ЗАПАДНОЙ УКРАИНЕ</h2>
+                    <p>смотреть все материалы</p>
+                </a>
+            </article>
+            <ul class="scroll-box" data-simplebar>
+                <li>
+                    <a href=""><h3>Появилось видео затопленного Галича с воздуха</h3></a>
+                    <time datetime="2022-02-21T14:26">14:26</time>
+                </li>
+                <li>
+                    <a href=""><h3>Ущерб от наводнения на Закарпатье оценили в 125 млн гривен</h3></a>
+                    <time datetime="2022-02-21T17:30">17:30</time>
+                </li>
+                <li>
+                    <a href=""><h3>Ущерб от наводнения на Закарпатье</h3></a>
+                    <time datetime="2022-02-21T15:44">15:44</time>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="next-news">
+        <div class="container">
+            <ul class="next-news__list">
+                <li class="big-item">
+                    <article>
+<div>
+    <a href="">
+        <h3>Как Юлия Тимошенко меня в Египет отправила</h3>
+        <p>В середине нулевых Киев переживал немыслимый ипотечный бум. Банки выдавали кредиты на десять и двадцать лет. </p>
+    </a>
+</div>
+                        <div class="next-news__bottom">
+                                <h3>Алексей Газубей</h3>
+                                <p>Главний редактор<br> focus.ua</p>
+                        </div>
+                    </article></li>
+
+                <li class="border_bottom">
+                    <article>
+                        <div>
+                            
+                            <a href="" class="relative">
+                                <picture>
+                                    <source
+                                     srcset="./images/next-news/2/x1.webp 1x, ./images/next-news/2/x2.webp 2x, ./images/next-news/2/x3.webp 3x"
+                                     type="image/webp"
+                                    />
+                                    <img
+                                     srcset="./images/next-news/2/x1.jpg 1x, ./images/next-news/2/x2.jpg 2x, ./images/next-news/2/x3.jpg 3x"
+                                     src="./images/next-news/2/x1.jpg" alt="В чем секрет популярности Тик-тока"
+                                     height="260"
+                                     width="300"
+                                    />
+                                   </picture>
+                                
+                                <h2 class="absolute">ТЕХНОЛОГИИ И НАУКА</h2>
+                            </a>
+                        </div>
+                        <a href=""><h3>Счастье за 16 секунд. В чем секрет популярности TikTok и как соцсеть влияет на психику подростков</h3></a>
+                        
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article>
+                </li>
+                <li class="next-news__list__maria">
+                    <article>
+                        <a href="">
+                            <h3 >Мнение</h3>
+                        <svg >
+                            <use href="./images/sprite.svg#icon-quotes"></use>
+                        </svg>
+                            <p> “Too much против<br>
+                                me too. Почему<br> сексистские скандалы<br>
+                                в Украине ничем не <br>заканчиваются”</p>
+                                <picture>
+                                    <source
+                                     srcset="./images/next-news/3/x1.webp 1x, ./images/next-news/3/x2.webp 2x, ./images/next-news/3/x3.webp 3x"
+                                     type="image/webp"
+                                    />
+                                    <img
+                                     srcset="./images/next-news/3/x1.png 1x, ./images/next-news/3/x2.png 2x, ./images/next-news/3/x3.png 3x"
+                                     src="./images/next-news/3/x1.png" alt="Мария Бабенко" class="name-img"
+                                     height="32"
+                                    />
+                                   </picture>
+                             <p class="name">Мария Бабенко</p>
+                           </a>
+
+                    </article>
+                </li>
+
+                <li class="next-news__list__oil border_bottom">
+                    <article>
+                        <a href="" class="image relative">
+                            <picture>
+                                <source
+                                 srcset="./images/next-news/4/x1.webp 1x, ./images/next-news/4/x2.webp 2x, ./images/next-news/4/x3.webp 3x"
+                                 type="image/webp"
+                                />
+                                <img
+                                 srcset="./images/next-news/4/x1.jpg 1x, ./images/next-news/4/x2.jpg 2x, ./images/next-news/4/x3.jpg 3x"
+                                 src="./images/next-news/4/x1.jpg" alt="Новая нефть"
+                                 height="148"
+                                 width="300"
+                                />
+                               </picture>
+                       <h2 class="absolute">ТЕХНОЛОГИИ И НАУКА</h2>
+                        </a>
+
+                        <a href="" class="oil">
+                            <h3 class="cabmin">Новая нефть. Как ученые ищут редкие элементы на дне океана, в космосе и мусоре</h3>
+                        </a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article>
+                </li>
+
+                <li class=" next-news__list__white border_bottom relative">
+                    <article>
+
+                            <a href="">
+                                <h3>Все в масках и проверка температуры: в Украине стартовала основная сессия ВНО-2020</h3>
+                                <p>Первый тест – по математике. Для его прохождения зарегистрировались 186 072 человека. </p>
+                                <h2 class="absolute-top">ТЕХНОЛОГИИ И НАУКА</h2>
+                            </a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article></li>
+                <li >
+                    <article >
+                       <a href="">
+                        <picture>
+                            <source
+                             srcset="./images/next-news/5/x1.webp 1x, ./images/next-news/5/x2.webp 2x, ./images/next-news/5/x3.webp 3x"
+                             type="image/webp"
+                            />
+                            <img
+                             srcset="./images/next-news/5/x1.jpg 1x, ./images/next-news/5/x2.jpg 2x, ./images/next-news/5/x3.jpg 3x"
+                             src="./images/next-news/5/x1.jpg" alt="Заморозка власного виробництва"
+                             height="250"
+                             width="300"
+                            />
+                           </picture>
+                       </a>
+                    </article>
+                </li>
+                <li class="next-news__list__oil border_bottom">
+                    <article>
+                        <a href="" class="image relative">
+                            <picture>
+                                <source
+                                 srcset="./images/next-news/6/x1.webp 1x, ./images/next-news/6/x2.webp 2x, ./images/next-news/6/x3.webp 3x"
+                                 type="image/webp"
+                                />
+                                <img
+                                 srcset="./images/next-news/6/x1.jpg 1x, ./images/next-news/6/x2.jpg 2x, ./images/next-news/6/x3.jpg 3x"
+                                 src="./images/next-news/6/x1.jpg" alt="Обзор Юрия Володарского"
+                                 height="148"
+                                 width="300"
+                                />
+                               </picture>
+
+                            <h2 class="absolute">КУЛЬТУРА</h2>
+                        </a>
+
+                        <a href="">
+                            <h3 class="cabmin">Обзор Юрия Володарского: 5 книг для тех, кто предпочитает "короткий метр" в литературе</h3>
+                        </a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article>
+                </li>
+            </ul>
+
+        </div>
+    </section> 
+     <section class="subscribe">
+        <div class="container">
+<ul>
+    <li>
+        <picture>
+            <source
+             srcset="./images/subscribe/1/x1.webp 1x, ./images/subscribe/1/x2.webp 2x, ./images/subscribe/1/x3.webp 3x"
+             type="image/webp"
+            />
+            <img
+             srcset="./images/subscribe/1/x1.png 1x, ./images/subscribe/1/x2.png 2x, ./images/subscribe/1/x3.png 3x"
+             src="./images/subscribe/1/x1.png" alt="ФОКУС. Выйти из тени Супрун" 
+             width="85"
+            />
+           </picture>
+    </li>
+    <li>
+        <picture>
+            <source
+             srcset="./images/subscribe/2/x1.webp 1x, ./images/subscribe/2/x2.webp 2x, ./images/subscribe/2/x3.webp 3x"
+             type="image/webp"
+            />
+            <img
+             srcset="./images/subscribe/2/x1.png 1x, ./images/subscribe/2/x2.png 2x, ./images/subscribe/2/x3.png 3x"
+             src="./images/subscribe/2/x1.png" alt="ФОКУС. Рейтинг Фокус"
+             width="106"
+            />
+           </picture>
+    </li>
+    <li>
+        <picture>
+            <source
+             srcset="./images/subscribe/3/x1.webp 1x, ./images/subscribe/3/x2.webp 2x, ./images/subscribe/3/x3.webp 3x"
+             type="image/webp"
+            />
+            <img
+             srcset="./images/subscribe/3/x1.png 1x, ./images/subscribe/3/x2.png 2x, ./images/subscribe/3/x3.png 3x"
+             src="./images/subscribe/3/x1.png" alt="ФОКУС. Подслушали"
+             width="85"
+            />
+           </picture>
+    </li>
+    <li>
+    <picture>
+        <source
+         srcset="./images/subscribe/4/x1.webp 1x, ./images/subscribe/4/x2.webp 2x, ./images/subscribe/4/x3.webp 3x"
+         type="image/webp"
+        />
+        <img
+         srcset="./images/subscribe/4/x1.png 1x, ./images/subscribe/4/x2.png 2x, ./images/subscribe/4/x3.png 3x"
+         src="./images/subscribe/4/x1.png" alt="ФОКУС. Рейтинг Фокус"
+         width="106"
+        />
+       </picture>
+    </li>
+    <li>
+        <picture>
+            <source
+             srcset="./images/subscribe/5/x1.webp 1x, ./images/subscribe/5/x2.webp 2x, ./images/subscribe/5/x3.webp 3x"
+             type="image/webp"
+            />
+            <img
+             srcset="./images/subscribe/5/x1.png 1x, ./images/subscribe/5/x2.png 2x, ./images/subscribe/5/x3.png 3x"
+             src="./images/subscribe/5/x1.png" alt="ФОКУС. Юлия Тимошенко о политических дивидентах"
+             width="85"
+            />
+           </picture>
+    </li>
+</ul>
+            <div class="subscribe__strong">
+                <p class="subscribe__p">
+                    <strong>Подпишись с другом!</strong> -10% каждому
+                </p>
+                <button type="button" >Подписаться</button>
+            </div>
+        </div>
+    </section>
+    <section class="ratings">
+        <div class="container">
+            <a href=""><h2>РЕЙТИНГИ</h2></a>
+            <div class="ratings__box">
+
+                <ul class="ratings-line">
+                    <li>
+                        <article class="ratings-line-1">
+                        <a href="">
+                            <p class="rating-header">Рейтинг</p>
+                            <p class="ratings-num">100</p>
+                            <h3> <span>Рейтинг 2019</span>
+                                Самые влиятельные украинцы</h3>
+                        </a>
+                    </article>
+                </li>
+                    <li>
+                        <article class="ratings-line-2">
+                        <a href="">
+                            <p class="rating-header">Рейтинг</p>
+                            <h3>Бунт кнопок. 30 лучших работодателей Украины — рейтинг Фокуса</h3>
+                        </a>
+                    </article>
+                </li>
+                    <li>
+                        <article class="ratings-line-3">
+                        <a href="">
+                            <p class="rating-header">Рейтинг</p>
+                            <p class="ratings-num">100</p>
+                            <h3> Самые богатые люди Украины. Полный список</h3>
+                        </a>
+                    </article>
+                </li>
+                </ul>
+            </div>
+            <button class="ratings-next">
+                <svg >
+                    <use href="./images/sprite.svg#icon-blright"></use>
+                </svg>
+            </button>
+            <button class="ratings-prev">
+                <svg >
+                    <use href="./images/sprite.svg#icon-blleft"></use>
+                </svg>
+            </button>
+            
+            
+        </div>
+    </section> 
+    <section class="ukraine">
+        <div class="container">
+            <a href="" class="ukraine__h2"><h2>УКРАИНА</h2></a>
+        <ul class="ukraine__list">
+            <li class="border_bottom">
+                <article>
+<a href="" class="image relative">
+    <picture>
+        <source
+         srcset="./images/ukraine/1/x1.webp 1x, ./images/ukraine/1/x2.webp 2x, ./images/ukraine/1/x3.webp 3x"
+         type="image/webp"
+        />
+        <img
+         srcset="./images/ukraine/1/x1.jpg 1x, ./images/ukraine/1/x2.jpg 2x, ./images/ukraine/1/x3.jpg 3x"
+         src="./images/ukraine/1/x1.jpg" alt="проверка доверия"
+         width="300"
+        />
+       </picture>
+    <h2 class="absolute">УКРАИНА</h2>
+</a>
+                    <a href="" class="text3">
+                        <h3>Проверка доверия: владелец «Три Н» Максим Криппа о махинациях в благотворительности</h3>
+                    </a>
+                    <time datetime="2022-02-21T15:44">15:44</time>
+                </article></li>
+            <li class="border_bottom">
+                <article>
+                    <a href="" class="image relative">
+                        <picture>
+                            <source
+                             srcset="./images/ukraine/2/x1.webp 1x, ./images/ukraine/2/x2.webp 2x, ./images/ukraine/2/x3.webp 3x"
+                             type="image/webp"
+                            />
+                            <img
+                             srcset="./images/ukraine/2/x1.jpg 1x, ./images/ukraine/2/x2.jpg 2x, ./images/ukraine/2/x3.jpg 3x"
+                             src="./images/ukraine/2/x1.jpg" alt="Кабмин разрешил открыть кинотеатры со 2 июля"
+                             width="300"
+                            />
+                           </picture>
+                        
+                        <h2 class="absolute">УКРАИНА</h2>
+                    </a>
+                    <a href="" class="text4">
+                        <h3>Выход из карантина: Кабмин разрешил открыть кинотеатры со 2 июля</h3>
+                    </a>
+                    <time datetime="2022-02-21T15:44">15:44</time>
+                </article></li>
+            <li class="big relative">
+                <a href="" href="">
+                <article>
+                    <h2 class="absolute-white">ФОТО ДНЯ</h2>
+                        <h3 class="grand-hotel">Бизнес и немного удовольствия: Grand Hotel Lviv Luxury & SPA</h3>
+                </article></a>
+            </li>
+
+            <li class="border_bottom">
+                <article>
+                    <a href="" class="image relative">
+                        <picture>
+                            <source
+                             srcset="./images/ukraine/4/x1.webp 1x, ./images/ukraine/4/x2.webp 2x, ./images/ukraine/4/x3.webp 3x"
+                             type="image/webp"
+                            />
+                            <img
+                             srcset="./images/ukraine/4/x1.jpg 1x, ./images/ukraine/4/x2.jpg 2x, ./images/ukraine/4/x3.jpg 3x"
+                             src="./images/ukraine/4/x1.jpg" alt="Истории мигрантов, которые вернулись в Украину из
+                             ОАЭ, Китая и Польши"
+                             width="300"
+                            />
+                           </picture>
+                        
+                            <h2 class="absolute">УКРАИНА</h2>
+                    </a>
+                    <a href="" class="text3">
+                        <h3>Пора домой. Истории мигрантов, которые вернулись в Украину из
+                            ОАЭ, Китая и Польши</h3>
+                    </a>
+                    <time datetime="2022-02-21T15:44">15:44</time>
+                </article></li>
+
+            <li class="misha">
+                <article>
+                    <a href="">
+                         <h3 >Мнение</h3>
+                         <svg >
+                            <use href="./images/sprite.svg#icon-quotes"></use>
+                        </svg>
+                        <p> “Государство или<br>смерть. Какой кризис<br> станет для Украины<br>последним””</p>
+                        <picture>
+                        <source
+                         srcset="./images/ukraine/5/x1.webp 1x, ./images/ukraine/5/x2.webp 2x, ./images/ukraine/5/x3.webp 3x"
+                         type="image/webp"
+                        />
+                         <img
+                         srcset="./images/ukraine/5/x1.png 1x, ./images/ukraine/5/x2.png 2x, ./images/ukraine/5/x3.png 3x"
+                         src="./images/ukraine/5/x1.png" alt="Михаил Багинский" class="name-img"
+                         width="32"
+                        />
+                        </picture>
+
+                         <p class="name">Михаил Багинский</p>
+                        </a>
+                </article>
+            </li>
+            <li class="border_bottom">
+                <article >
+                    <a href="" class="image relative">
+                        <picture>
+                            <source
+                             srcset="./images/ukraine/6/x1.webp 1x, ./images/ukraine/6/x2.webp 2x, ./images/ukraine/6/x3.webp 3x"
+                             type="image/webp"
+                            />
+                            <img
+                             srcset="./images/ukraine/6/x1.jpg 1x, ./images/ukraine/6/x2.jpg 2x, ./images/ukraine/6/x3.jpg 3x"
+                             src="./images/ukraine/6/x1.jpg" alt="Как застройщики превращают украинские города в ад"
+                             width="300"
+                            />
+                           </picture>
+ 
+                     <h2 class="absolute">УКРАИНА</h2>
+                    </a>
+                    <a href="" class="text4">
+                        <h3>Бетонная пята. Как застройщики превращают украинские города в ад</h3>
+                    </a>
+                    <time datetime="2022-02-21T15:44">15:44</time>
+                </article></li>
+            <li class="border_bottom">
+                <article>
+                    <a href="" class="image relative">
+                        <picture>
+                            <source
+                             srcset="./images/ukraine/7/x1.webp 1x, ./images/ukraine/7/x2.webp 2x, ./images/ukraine/7/x3.webp 3x"
+                             type="image/webp"
+                            />
+                            <img
+                             srcset="./images/ukraine/7/x1.jpg 1x, ./images/ukraine/7/x2.jpg 2x, ./images/ukraine/7/x3.jpg 3x"
+                             src="./images/ukraine/7/x1.jpg" alt="Смерть марафонца"
+                             width="300"
+                            />
+                           </picture>
+                        <h2 class="absolute">УКРАИНА</h2>
+                    </a>
+                    <a href="" class="text4">
+                        <h3>Смерть марафонца. Можно ли было спасти Екатерину Катющеву</h3>
+                    </a>
+                    <time datetime="2022-02-21T15:44">15:44</time>
+                </article></li>
+        </ul>
+        </div>
+    </section>
+    <section class="popular">
+        <div class="container">
+            <a href=""><h2>СЕЙЧАС ПОПУЛЯРНО</h2></a>
+            <div class="popular__box">
+
+                <ul class="popular-line">
+                    <li>
+                        <article class="popular-line-1">
+                            <a href="">
+                                <p class="absolute-white">ПРОТЕСТЫ В США</p>
+                                <h3>Жертвы собственной пропаганды. Как либеральные могут проиграть холодную войну</h3>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </a>
+
+                        </article>
+                    </li>
+                    <li>
+                        <article class="popular-line-2">
+                            <a href="">
+                                <p class="absolute-white">МИР</p>
+                                <h3>Австралиец выловил рекордного красного императора и решил передать его ученым</h3>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </a>
+
+                        </article>
+                    </li>
+                    <li>
+                        <article class="popular-line-3">
+                            <a href="">
+                                <p class="absolute-white">МИР</p>
+                                <h3>Жизнь за 80. 5 самых пожилых рекорсменов из Книги рекордов Гиннеса</h3>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </a>
+
+                        </article>
+                    </li>
+                    <li>
+                        <article class="popular-line-4">
+                            <a href="">
+                                <p class="absolute-white">МИР</p>
+                                <h3>Дресс-код постапокалипсиса. Как коронавирус и карантин навсегда изменили стиль</h3>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </a>
+
+                        </article>
+                    </li>
+                </ul>
+                <button class="popular-next">
+                <svg >
+                    <use href="./images/sprite.svg#icon-blright"></use>
+                </svg>
+            </button>
+                <button class="popular-prev">
+                    <svg >
+                        <use href="./images/sprite.svg#icon-blleft"></use>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </section> 
+     <section class="beautiful">
+        <div class="container">
+            <a href="" class="ukraine__h2"><h2>КРАСИВАЯ СТРАНА</h2></a>
+            <ul class="beautiful__list">
+
+
+                <li class="border_bottom">
+                    <article>
+                        <a href="" class="image relative">
+                            <picture>
+                                <source
+                                 srcset="./images/beautiful/1/x1.webp 1x, ./images/beautiful/1/x2.webp 2x, ./images/beautiful/1/x3.webp 3x"
+                                 type="image/webp"
+                                />
+                                <img
+                                 srcset="./images/beautiful/1/x1.jpg 1x, ./images/beautiful/1/x2.jpg 2x, ./images/beautiful/1/x3.jpg 3x"
+                                 src="./images/beautiful/1/x1.jpg" alt="Чем грозит Украине вторая волна борьбы с коронавирусом"
+                                 width="300"
+                                />
+                               </picture>
+                            
+                            <h2 class="absolute">УКРАИНА</h2>
+                        </a>
+                        <a href="" class="text4">
+                            <h3>Наказание карантином. Чем грозит Украине вторая волна борьбы с коронавирусом</h3>
+                        </a>
+                        <time datetime="2022-02-21T15:44">15:44</time>
+                    </article></li>
+
+
+                <li class="border_bottom">
+                    <article >
+                        <a href="" class="image relative">
+                            <picture>
+                                <source
+                                 srcset="./images/beautiful/2/x1.webp 1x, ./images/beautiful/2/x2.webp 2x, ./images/beautiful/2/x3.webp 3x"
+                                 type="image/webp"
+                                />
+                                <img
+                                 srcset="./images/beautiful/2/x1.jpg 1x, ./images/beautiful/2/x2.jpg 2x, ./images/beautiful/2/x3.jpg 3x"
+                                 src="./images/beautiful/2/x1.jpg" alt="Три маршрута к памятникам советского модернизма в Киеве"
+                                 width="300"
+                                />
+                               </picture>
+                            
+                            <h2 class="absolute">УКРАИНА</h2>
+                        </a>
+                        <a href="" class="text3">
+                            <h3>Небоскребы советских времен. Три маршрута к памятникам советского модернизма в Киеве
+                            </h3>
+                        </a>
+                        <time datetime="2020-06-12T03:11">12 июня 2020 о 03:11</time>
+                    </article></li>
+                <li class="background relative">
+                    <a href="">
+                                        <article >
+                                            <h2 class="absolute-white">РЕЙТИНГ</h2>
+                                            <p>100</p>
+                                             <h3 class="background__color ">Из песни слов не выкинешь. Рейтинг Фокуса:
+                                              самые успешные звезды шоу-бизнеса</h3>
+                                        </article></a>
+                </li>
+                <li class="border_bottom">
+                    <article>
+                        <a href="" class="image relative">
+                            <picture>
+                                <source
+                                 srcset="./images/beautiful/4/x1.webp 1x, ./images/beautiful/4/x2.webp 2x, ./images/beautiful/4/x3.webp 3x"
+                                 type="image/webp"
+                                />
+                                <img
+                                 srcset="./images/beautiful/4/x1.jpg 1x, ./images/beautiful/4/x2.jpg 2x, ./images/beautiful/4/x3.jpg 3x"
+                                 src="./images/beautiful/4/x1.jpg" alt="Музей Островского в Шепетовке — памятник архитектуры, а не идеологии"
+                                 width="300"
+                                />
+                               </picture>
+                           
+                            <h2 class="absolute">УКРАИНА</h2>
+                        </a>
+                        <a  href="" class="text3">
+                            <h3>Как закалилась сталь. Музей Островского в Шепетовке — памятник архитектуры, а не идеологии</h3>
+                        </a>
+                        <time datetime="2020-06-12T03:11">12 июня 2020 о 03:11</time>
+                    </article></li>
+            </ul>
+        </div>
+    </section> 
+    <section class="slider relative">
+        <div class="container">
+            <div class="slider__box ">
+                <div class="slider-line ">
+                    <div><a href="">
+                        <article class="slider-img">
+                            <picture>
+                                <source
+                                 srcset="./images/slider/x1.webp 1x, ./images/slider/x2.webp 2x, ./images/slider/x3.webp 3x"
+                                 type="image/webp"
+                                />
+                                <img
+                                 srcset="./images/slider/x1.jpg 1x, ./images/slider/x2.jpg 2x, ./images/slider/x3.jpg 3x"
+                                 src="./images/slider/x1.jpg" alt="Почему украинки участвуют в боях без правил"
+                                />
+                               </picture>
+                            <p class="absolute-white">ДЛИННЫЙ ФОКУС</p>
+                            <h2>Ни тоски, ни жалости</h2>
+                            <h3>Почему украинки участвуют в боях без правил</h3>
+                        </article>
+                    </a></div>
+                       
+                    <div> 
+                        <picture>
+                        <source
+                         srcset="./images/slider/x1.webp 1x, ./images/slider/x2.webp 2x, ./images/slider/x3.webp 3x"
+                         type="image/webp"
+                        />
+                        <img
+                         srcset="./images/slider/x1.jpg 1x, ./images/slider/x2.jpg 2x, ./images/slider/x3.jpg 3x"
+                         src="./images/slider/x1.jpg" alt="Почему украинки участвуют в боях без правил"
+                        />
+                       </picture>
+                    </div>
+                    <div>
+                        <picture>
+                        <source
+                         srcset="./images/slider/x1.webp 1x, ./images/slider/x2.webp 2x, ./images/slider/x3.webp 3x"
+                         type="image/webp"
+                        />
+                        <img
+                         srcset="./images/slider/x1.jpg 1x, ./images/slider/x2.jpg 2x, ./images/slider/x3.jpg 3x"
+                         src="./images/slider/x1.jpg" alt="Почему украинки участвуют в боях без правил"
+                        />
+                       </picture>
+                    </div>
+                </div>
+                <button class="button-prev">
+                    <svg >
+                    <use href="./images/sprite.svg#icon-wleft"></use>
+                    </svg>
+                </button>
+                <button class="button-next">
+                    <svg >
+                        <use href="./images/sprite.svg#icon-wright"></use>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="latest-news">
+        <div class="container">
+
+                    <ul class="latest-news__list">
+                        <li class="border_bottom">
+                            <article>
+            <a href="" class="image">
+                <picture>
+                    <source
+                     srcset="./images/latest-news/1/x1.webp 1x, ./images/latest-news/1/x2.webp 2x, ./images/latest-news/1/x3.webp 3x"
+                     type="image/webp"
+                    />
+                    <img
+                     srcset="./images/latest-news/1/x1.jpg 1x, ./images/latest-news/1/x2.jpg 2x, ./images/latest-news/1/x3.jpg 3x"
+                     src="./images/latest-news/1/x1.jpg" alt="Финал Кубка Украины по футболу перенесут из Львова в Харьков"
+                     width="300"
+                    />
+                   </picture>
+               
+            </a>
+                                <a href="" class="text4">
+                                    <h3>Финал Кубка Украины по футболу перенесут из Львова в Харьков, – СМИ</h3>
+                                </a>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </article></li>
+                        <li class=" next-news__list__white border_bottom relative">
+                            <article>
+
+                                <a href="">
+                                    <h3>Это винтажная атмосфера. MONATIK — о том, что такое карантин с оптимистической точки зрения</h3>
+                                    <p>Коронавирус перевел всех в осадное положение. Пока концертные залы пусты, выступления проходят в режиме онлайн или не проходят вообще. </p>
+                                    <h2 class="absolute-top">КОРОНАВИРУС В УКРАИНЕ</h2>
+                                </a>
+                                <time datetime="2020-06-14T16:51">14 июня 2020 о 16:51</time>
+                            </article></li>
+                        <li class="border_bottom">
+                            <article>
+                                <a href="" class="image">
+                                    <picture>
+                                        <source
+                                         srcset="./images/next-news/6/x1.webp 1x, ./images/next-news/6/x2.webp 2x, ./images/next-news/6/x3.webp 3x"
+                                         type="image/webp"
+                                        />
+                                        <img
+                                         srcset="./images/next-news/6/x1.jpg 1x, ./images/next-news/6/x2.jpg 2x, ./images/next-news/6/x3.jpg 3x"
+                                         src="./images/next-news/6/x1.jpg" alt="Обзор Юрия Володарского"
+                                         width="300"
+                                        />
+                                       </picture>
+                                </a>
+                                <a href="" class="text3">
+                                    <h3>Обзор Юрия Володарского: 5 книг для тех, кто предпочитает "короткий метр" в литературе</h3>
+                                </a>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </article></li>
+
+                        <li>
+                            <article>
+                                <a href="" class="image">
+                                    <picture>
+                                        <source
+                                         srcset="./images/latest-news/2/x1.webp 1x, ./images/latest-news/2/x2.webp 2x, ./images/latest-news/2/x3.webp 3x"
+                                         type="image/webp"
+                                        />
+                                        <img
+                                         srcset="./images/latest-news/2/x1.jpg 1x, ./images/latest-news/2/x2.jpg 2x, ./images/latest-news/2/x3.jpg 3x"
+                                         src="./images/latest-news/2/x1.jpg" alt="Новое комбо меню"
+                                         width="300"
+                                        />
+                                       </picture>
+                                   
+                                </a>
+                            </article></li>
+
+                        <li class="border_bottom">
+                            <article>
+                                <a href="" class="image">
+                                    <picture>
+                                        <source
+                                         srcset="./images/latest-news/3/x1.webp 1x, ./images/latest-news/3/x2.webp 2x, ./images/latest-news/3/x3.webp 3x"
+                                         type="image/webp"
+                                        />
+                                        <img
+                                         srcset="./images/latest-news/3/x1.jpg 1x, ./images/latest-news/3/x2.jpg 2x, ./images/latest-news/3/x3.jpg 3x"
+                                         src="./images/latest-news/3/x1.jpg" alt="3 лимитированные серии автомобилей, посвященные славному прошлому"
+                                         width="300"
+                                        />
+                                       </picture>
+                                   
+                                </a>
+                                <a href="" class="text3">
+                                    <h3>Вдохновленные ностальгией. 3 лимитированные серии автомобилей, посвященные славному прошлому</h3>
+                                </a>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </article></li>
+                        <li >
+                            <article >
+                                <a href="" class="image">
+                                    <picture>
+                                        <source
+                                         srcset="./images/latest-news/4/x1.webp 1x, ./images/latest-news/4/x2.webp 2x, ./images/latest-news/4/x3.webp 3x"
+                                         type="image/webp"
+                                        />
+                                        <img
+                                         srcset="./images/latest-news/4/x1.jpg 1x, ./images/latest-news/4/x2.jpg 2x, ./images/latest-news/4/x3.jpg 3x"
+                                         src="./images/latest-news/4/x1.jpg" alt="Шоколадный хот-дог"
+                                         width="300"
+                                        />
+                                       </picture>
+                                </a>
+                            </article></li>
+                        <li class="latest-news__background">
+                            <a href="">
+                            <article>
+                                    <h3>КОГДА ТЫ ДОМА: как «умный дом» LG приходит на выручку во времена турбулентности</h3>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </article></a>
+                        </li>
+                        <li class=" next-news__list__white border_bottom relative">
+                            <article>
+
+                                <a href="">
+                                    <h3>Мосты всей жизни. В жизни Евгения Патона не было случайностей</h3>
+                                    <p>Его называли человеком из будущего, гениальные идеи которого по сей день используются при изготовлении сверхпрочных сплавов для мостов, железных дорог и даже космических станций.  </p>
+                                    <h2 class="absolute-top">АРХИВАВИРУС</h2>
+                                </a>
+                                <time datetime="2022-02-21T15:44">15:44</time>
+                            </article></li>
+                    </ul>
+        </div>
+    </section> 
+    <section class="discounts">
+        <div class="container">
+            <article>
+                <a href="">
+                    <div class="discounts__box">
+                        <picture>
+                            <source
+                             srcset="./images/discounds/1/x1.webp 1x, ./images/discounds/1/x2.webp 2x, ./images/discounds/1/x3.webp 3x"
+                             type="image/webp"
+                            />
+                            <img
+                             srcset="./images/discounds/1/x1.png 1x, ./images/discounds/1/x2.png 2x, ./images/discounds/1/x3.png 3x"
+                             src="./images/discounds/1/x1.png" alt="Логотип Око" class="img-1"
+                             width="221"
+                            />
+                           </picture>
+                           <picture>
+                            <source
+                             srcset="./images/discounds/2/x1.webp 1x, ./images/discounds/2/x2.webp 2x, ./images/discounds/2/x3.webp 3x"
+                             type="image/webp"
+                            />
+                            <img
+                             srcset="./images/discounds/2/x1.png 1x, ./images/discounds/2/x2.png 2x, ./images/discounds/2/x3.png 3x"
+                             src="./images/discounds/2/x1.png" alt="Персональные скидки" class="img-2"
+                             width="179"
+                            />
+                           </picture>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <a href=""><img src="./images/focus.svg" alt="Фокус"></a>
+        <div class="top-footer">
+            <ul class="nav-footer">
+                <li><a href="">ПОЛИТИКА</a></li>
+                <li><a href="">УКРАИНА</a></li>
+                <li><a href="">ЭКОНОМИКА</a></li>
+                <li><a href="">КУЛЬТУРА</a></li>
+                <li><a href="">МНЕНИЕ</a></li>
+                <li><a href="">РЕЙТИНГИ</a></li>
+                <li><a href="">ДЛИННЫЙ ФОКУС</a></li>
+                <li><a href="">МИР</a></li>
+            </ul>
+            <ul class="books-footer">
+                <li><a href="">
+
+                    <picture>
+                        <source
+                         srcset="./images/footer/1/x1.webp 1x, ./images/footer/1/x2.webp 2x, ./images/footer/1/x3.webp 3x"
+                         type="image/webp"
+                        />
+                        <img
+                         srcset="./images/footer/1/x1.png 1x, ./images/footer/1/x2.png 2x, ./images/footer/1/x3.png 3x"
+                         src="./images/footer/1/x1.png" alt="Тонкая красная линия"
+                         width="99"
+                        />
+                       </picture>
+                   
+                    </a></li>
+                <li><a href="">
+                    <picture>
+                        <source
+                         srcset="./images/footer/2/x1.webp 1x, ./images/footer/2/x2.webp 2x, ./images/footer/2/x3.webp 3x"
+                         type="image/webp"
+                        />
+                        <img
+                         srcset="./images/footer/2/x1.png 1x, ./images/footer/2/x2.png 2x, ./images/footer/2/x3.png 3x"
+                         src="./images/footer/2/x1.png" alt="100 самых влиятельных женщин Укранины"
+                         width="91"
+                        />
+                       </picture>
+                    
+                    </a></li>
+                <li><a href="">
+                    <picture>
+                        <source
+                         srcset="./images/footer/3/x1.webp 1x, ./images/footer/3/x2.webp 2x, ./images/footer/3/x3.webp 3x"
+                         type="image/webp"
+                        />
+                        <img
+                         srcset="./images/footer/3/x1.png 1x, ./images/footer/3/x2.png 2x, ./images/footer/3/x3.png 3x"
+                         src="./images/footer/3/x1.png" alt="100 самых влиятельных украицев"
+                         width="87"
+                        />
+                       </picture>
+            
+                </a></li>
+            </ul>
+            <div class="books-footer__box">
+                <p>Гарантировано получите скидку <strong>-10%</strong></p>
+                <button type="button">Подписаться</button>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="left-footer">
+                <p class="top">
+                    Все права на материалы, опубликованные на данном ресурсе, принадлежат ООО "ФОКУС МЕДИА".
+                    Какое-либо использование материалов без письменного разрешения ООО "ФОКУС МЕДИА" - запрещено.
+                    При использовании материалов с данного ресурса гиперссылка focus.ua обязательна.
+                </p>
+                <p>
+                    Данный ресурс — для пользователей возрастом от 18 лет и старше.
+                </p>
+            </div>
+            <div class="right-footer">
+                <p class="top">Перепечатка, копирование или воспроизведение информации, содержащей ссылку на агентство ИнА "Українські Новини", в каком-либо виде строго запрещены.</p>
+                <p class="medium">Все материалы, которые размещены на этом сайте со ссылкой на агентство "Интерфакс-Украина", не подлежат дальнейшему воспроизведению и/или распространению в любой форме, кроме как с письменного разрешения агентства.</p>
+                <p>Материалы с плашками "Р", "Новости партнеров", "Новости компаний", "Новости партий", "Инновации", "Позиция", "Спецпроект при поддержке" публикуются на коммерческой основе.</p>
+            </div>
+        </div>
+        <div class="footer-end">
+            <p class="left"> &#169;2020 Фокус. Все права защищены.</p>
+            <p class="right">Політика конфіденційності</p>
+        </div>
+    </div>
+</footer> 
+
+<script src="js/burger.js"></script>
+
+<script src="js/popular.js"></script>
+
+<script src="js/simplebar.js"></script>
+
+
+<script type="module">
+    import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+  
+ const slider = document.querySelector('.slider__box');
+ let mySwiper = new Swiper(slider, {
+	spaceBetween: 10,
+    slideClass: 'slider-line div',
+    wrapperClass: 'slider-line',
+	loop: true,
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+	navigation: {
+		nextEl: '.button-next',
+		prevEl: '.button-prev',
+	},
+})
+const raitings = document.querySelector('.popular__box');
+ let myRaiting = new Swiper(raitings, {
+     slidesPerView: 1,
+	spaceBetween: 10,
+    slideClass: 'popular-line li',
+    wrapperClass: 'popular-line',
+	loop: true,
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+    breakpoints: {
+		1440: {
+			slidesPerView: 4,
+            spaceBetween: 25,
+		},
+		768: {
+			slidesPerView: 2,
+            spaceBetween: 30,
+		}
+	}
+})
+
+const popular = document.querySelector('.ratings__box');
+ let popularSwiper = new Swiper(popular, {
+     slidesPerView: 1,
+	spaceBetween: 10,
+    slideClass: 'ratings-line li',
+    wrapperClass: 'ratings-line',
+	loop: true,
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+    breakpoints: {
+		1440: {
+			slidesPerView: 3,
+            spaceBetween: 25,
+		},
+		768: {
+			slidesPerView: 2,
+            spaceBetween: 30,
+		}
+	}
+})
+  </script>
+</body>
+</html>

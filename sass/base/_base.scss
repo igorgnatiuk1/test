@@ -1,0 +1,50 @@
+body{
+    font-family: 'Cera Pro', Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+   @media screen and (max-width: 330px) {
+       padding: 0 15px;
+   }
+   @media screen and (min-width: 330px) {
+       width: 300px;
+       
+   }
+   @media screen and (min-width: 768px) {
+       width: 624px;
+   }
+   @media screen and (min-width: 1440px) {
+       width: 1272px;
+   }
+    
+}
+a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover, a:focus{
+    color: red;
+}
+img{
+    display: block;
+    @media screen and (max-width: 330px) {
+        width: 100%; 
+    }
+}
+h1{
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+time{
+    display: block;
+    margin-bottom: 10px;
+}
