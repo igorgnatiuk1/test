@@ -73,13 +73,16 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 330px;
+    width: 250px;
     max-width: 100%;
     padding: 15px;
     background-color: #fff;
     align-items: center;
     justify-content: center;
     overflow-y: auto;
+    @media screen and (min-width: 768px){
+        width: 330px;
+    }
     &.is-open{
         opacity: 1;
     }

@@ -198,7 +198,7 @@ time {
   position: fixed;
   top: 0;
   left: 0;
-  width: 330px;
+  width: 250px;
   max-width: 100%;
   padding: 15px;
   background-color: #fff;
@@ -209,6 +209,12 @@ time {
       -ms-flex-pack: center;
           justify-content: center;
   overflow-y: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .header__menu {
+    width: 330px;
+  }
 }
 
 .header__menu.is-open {
